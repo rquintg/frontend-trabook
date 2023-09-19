@@ -4,7 +4,7 @@
     <div class="container-fluid mt-5 ">
       <div class="row justify-content-md-center">
         <div class="col col-lg-2 text-center">
-          <img class="mt-2" src="../assets/Logo.png">
+          <img class="mt-2" src="https://github.com/rquintg/backend-trabook/blob/main/src/img/Logo.png?raw=true" alt="logo">
         </div>
         <div class="col-md-auto">
           <ul class="nav">
