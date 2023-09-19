@@ -26,8 +26,8 @@
                   <p class="card-text text-secondary  text-end arrow mb-2">{{ travel.pais}}</p>
                 </div>
                 <div class="d-flex">
-                  <p class="card-text text-secondary  text-start arrow me-3"><del>{{travel.price_off}}</del></p>
-                  <p class="card-text text-secondary  text-end arrow mb-2">{{travel.price}}</p>
+                  <p class="card-text text-secondary  text-start arrow me-3"><del>${{travel.price_off}}</del></p>
+                  <p class="card-text text-secondary  text-end arrow mb-2">${{travel.price}}</p>
                 </div>
 
               </div>
@@ -89,6 +89,15 @@ export default {
 <style scoped>
 .fontTitle{
   font-family: 'Mate', serif;
+}
+
+p, h4{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+}
+
+.arrow{
+  font-size: 0.8rem;
 }
 .block ul {
   padding: 0;
