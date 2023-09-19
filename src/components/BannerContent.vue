@@ -13,7 +13,7 @@
         </div>
         <!-- column right -->
         <div class="col-6">
-          <img src="../assets/tourist-with-thumb-up__1_-removebg 1.png">
+          <img src="https://github.com/rquintg/backend-trabook/blob/main/src/img/tourist-with-thumb-up__1_-removebg%201.png?raw=truegit" alt="tourist">
         </div>
       </div>
 
