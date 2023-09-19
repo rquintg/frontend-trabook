@@ -3,6 +3,7 @@
     <NavBar />
     <BannerContent />
     <CardsUtil />
+    <TravelsCards />
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import NavBar from './components/NavBar.vue'
 import BannerContent from './components/BannerContent.vue'
 import CardsUtil from './components/CardsUtil.vue'
+import  TravelsCards from './components/TravelsCards.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
     BannerContent,
-    CardsUtil
+    CardsUtil,
+    TravelsCards
   }
 }
 </script>
