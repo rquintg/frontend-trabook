@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     getTravels(){
-      axios.get('https://backend-trabook.up.railway.app/api/travels')
+      axios.get(process.env.VUE_APP_ENDPOINT_TRAVEL)
           .then((response) => {
             this.travels = response.data;
           })
@@ -87,18 +87,6 @@ export default {
 </script>
 
 <style scoped>
-.fontTitle{
-  font-family: 'Mate', serif;
-}
-
-p, h4{
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.2rem;
-}
-
-.arrow{
-  font-size: 0.8rem;
-}
 .block ul {
   padding: 0;
   margin: 0; }

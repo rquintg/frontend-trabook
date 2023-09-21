@@ -1,5 +1,5 @@
 <template>
-  <div class="section2">
+  <div class="section">
     <div>
       <h1 class="fontTitle text-center mt-5"> Things you need <strong style="color: #ff6200;">to do</strong></h1>
 
@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     getUtil(){
-      axios.get('https://backend-trabook.up.railway.app/api/util')
+      axios.get(process.env.VUE_APP_ENDPOINT_UTIL)
           .then(response => {
             this.utils = response.data;
           })
@@ -59,18 +59,4 @@ export default {
 </script>
 
 <style scoped>
-.section2{
-  background-color: #f5f5f5;
-  margin: 2rem 0;
-  padding: 3rem 0;
-}
-
-.fontTitle{
-  font-family: 'Mate', serif;
-}
-
-.fontParagraph{
-  font-family: 'Nunito', sans-serif;
-}
-
 </style>
