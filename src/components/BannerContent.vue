@@ -55,16 +55,6 @@
 </script>
 
 <style scoped>
-.fontTitle{
-  font-family: 'Mate', serif;
-}
-.fontBig{
-  font-size: 4rem;
-}
-.fontSmall{
-  font-size: 1.2rem;
-}
-
 .btoutline{
   display: inline-block;
   background-color: transparent;

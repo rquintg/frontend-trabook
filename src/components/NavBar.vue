@@ -80,17 +80,4 @@
   padding: 0.5rem 1rem;
   border-bottom: 2px solid rgb(255, 98, 0);
 }
-
-a{
-  font-family: 'Nunito', sans-serif;
-}
-
-a:hover{
-  color: rgb(255, 98, 0);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-bottom: 2px solid rgb(255, 98, 0);
-}
-
-
 </style>
